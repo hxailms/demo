@@ -1,0 +1,14 @@
+<div>
+    <Nav />
+   
+    <Banner :list="bannerList">
+        <router-link :to="{name:'g'}" slot-scope="{data}">
+            <img :src="data" alt="">
+        </router-link>
+
+    </Banner>
+
+    <List :list="goodsList" />
+    
+    <Footer />
+</div>

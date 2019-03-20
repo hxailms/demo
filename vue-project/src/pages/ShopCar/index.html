@@ -1,0 +1,95 @@
+<div>
+    <Nav />
+    
+    <ul class="progress cl">
+        <li>1.查看购物车</li>
+        <li>2.确认订单</li>
+        <li>3.提交成功</li>
+    </ul>
+    <div class="progress_img"></div>
+    
+  
+    <div class="w1200" id="shc">
+        <h2 class="ji">我的购物车</h2>
+        <table class="shopCar">
+            <tr class="th">
+                <td class="first">
+                    <input type="checkbox" @change="checkAll" v-model="isAll">
+                    全选
+                </td>
+                <td>商品</td>
+                <td>单价（元）</td>
+                <td>数量</td>
+                <td>小计（元）</td>
+                <td>操作</td>
+            </tr>
+            <tr v-show="have" class="tr" v-for="(item,index) in goodsList">
+                <td>
+                    <input type="checkbox" v-model="item.active">
+                </td>
+                <td>
+                    <img :src="item.goodsImg" alt="">
+                    {{item.goodsName}}
+                </td>
+                <td>
+                    <span>{{item.goodsPrice | cny}}</span>
+                </td>
+                <td class="num">
+                    <button @click="changeNum(index,false)" class="add">{{reduce}}</button><!-- 
+                     --><input type="text" v-model="item.goodsNum   "><!-- 
+                     --><button @click="changeNum(index)" class="red">+</button>
+                </td>
+                <td>
+                    <span> {{item.goodsNum * item.goodsPrice | cny}}</span>
+                   </td>
+                <td>
+                    <span @click="delOne(index)">删除</span>
+                </td>
+
+            </tr>
+            <tr v-show="empty" class="empty">
+                <h2>
+                    购物车空空如也~~
+                    去
+                    <router-link
+                        :to="{name:'g'}"
+                    >
+                        商品列表
+                    </router-link>
+                    
+                    看看
+                </h2>
+            </tr>
+            <tr class="th">
+                <td class="first"><a href="javascript:;" @click="delAll">批量删除</a></td>
+                <td>您已选择<span>{{countNum}}</span>件商品</td>
+                <td>总计：<span>{{countPrice}}</span>元</td>
+                <td>备注：</td>
+                <td></td>
+                <td> <button class="js">立即结算</button></td>
+            </tr>
+        </table>
+        <h3 class="w1200">购买须知:</h3>
+        <p class="w1200 zy">大多数主要城市订单在付款后5-7工作日到达，其他地区需要10个工作，较偏远/非直递目的地则需10-14邮递工作日到达。
+                但若阁下于订单寄出后14工作日仍未收到的话，请阅读我们的清关细则或者直接联系我们，我们会尽力尝试为您追踪包裹。 您可发送电邮至：help@nuandao.com联系我们。</p>
+        
+    </div>
+
+
+
+
+    
+    <!-- iview的对话框 -->
+    <Modal v-model="modal1" title="友情提示：" @on-ok="ok" @on-cancel="cancel">
+            <h3>您还没有登录，是否去登录？</h3>
+        </Modal>
+    
+
+
+     <!-- iview的对话框 -->
+     <Modal v-model="modal2" title="友情提示：" @on-ok="ok1" @on-cancel="cancel2">
+            <h3>你确定要删除吗！</h3>
+        </Modal>
+    <Footer />
+
+</div>

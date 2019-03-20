@@ -1,0 +1,56 @@
+<div class="w1200">
+    <h2 class="h2">今日上新</h2>
+    <ul class="goods_list cl">
+        <router-link v-for="item in list" :to="{name:'d', params:{goodsid:item._id}}" tag="li">
+
+            <div class="goods_list_t">
+                <img :src="item.imgSrc" alt="">
+                <p>{{item.info}}</p>
+            </div>
+            <div class="goods_list_bot">
+                {{item.title}}
+            </div>
+            <div class="jz">
+                <span  class="goods_list_price">
+                    价格：{{item.price*1 | cny}}
+
+                </span>
+                <span  class="goods_list_discount">
+
+                    折扣：{{item.discount}}
+                </span>
+            </div>
+        </router-link>
+
+
+        <!-- <li>
+            <div class="goods_list_t">
+                <img src="http://img2.nuandaoimg.com/Public/images/uploads/sale/20190107/5c3306bb061bc.jpg" alt="">
+                <p>FFMME非密</p>
+            </div>
+            <div class="goods_list_bot">
+                和烦恼说拜拜
+            </div>
+        </li>
+        <li>
+            <div class="goods_list_t">
+                <img src="http://img2.nuandaoimg.com/Public/images/uploads/sale/20190107/5c3306bb061bc.jpg" alt="">
+                <p>FFMME非密</p>
+            </div>
+            <div class="goods_list_bot">
+                和烦恼说拜拜
+            </div>
+        </li>
+        <li>
+            <div class="goods_list_t">
+                <img src="http://img2.nuandaoimg.com/Public/images/uploads/sale/20190107/5c3306bb061bc.jpg" alt="">
+                <p>FFMME非密</p>
+            </div>
+            <div class="goods_list_bot">
+                和烦恼说拜拜
+            </div>
+        </li> -->
+    </ul>
+
+
+</div>

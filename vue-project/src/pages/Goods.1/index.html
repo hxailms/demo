@@ -1,0 +1,26 @@
+<div>
+    <Nav />
+    <ul class="seekList w1200 cl">
+        <li>
+            <input type="radio" @change="change(1)" @click="sortGoods(sortby)" checked id="a" name="paixu" value="1"><label for="a"></label>升序
+        </li>
+        <li>
+            <input type="radio" @change="change(2)"  @click="sortGoods(sortby,false)" id="b" name="paixu" value="2">
+            <label for="b"></label>降序
+        </li>
+        <li>
+            <input type="radio" @change="change(3)"  @click="sortGoods('price',isAsc)" checked id="c" name="order" value="3">
+            <label for="c"></label>价格
+        </li>
+        <li>
+            <input type="radio" @change="change(4)"  @click="sortGoods('discount',isAsc)" id="d" name="order" value="4">
+            <label for="d"></label>折扣
+        </li>
+        <li class="ss">
+            <input type="text" class="search" v-model="seekValue"><button @click="searchGoods(seekValue)" id="seekBtn">搜索</button>
+        </li>
+    </ul>
+    <List  :list="goodsSub" />
+    <Page :total="dataCount" :page-size="pageSize" show-tolal @on-change="pagechange" class-name="zdy"></Page>
+    <Footer />
+</div>

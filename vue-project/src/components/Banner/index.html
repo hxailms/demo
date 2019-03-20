@@ -1,0 +1,15 @@
+<div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" v-for="item in list">
+                <!-- <img :src="item" alt=""> -->
+              
+                <slot :data="item" />
+            </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <div class="banner-img">
+        <img src="http://img2.nuandaoimg.com/Public/images/web/highlights-980.png" alt="">
+    </div>
+</div>

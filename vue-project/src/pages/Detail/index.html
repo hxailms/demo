@@ -1,0 +1,65 @@
+<div>
+    <Nav />
+    
+    
+    <div class="d_content w1200">
+        <div class="content_top cl">
+            <div class="top_l">
+                <div class="box">
+                    <img :src="imgSrc" alt="" v-if="imgSrc">
+                </div>
+                <ul class="nav">
+                    <li v-for="imgSrc in goodsObj.imgList">
+                        <img @mouseover="tabs(imgSrc)" :src="imgSrc" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="top_r">
+                <h3>{{goodsObj.info}}</h3>
+                <div class="price">
+                    <span>现价：{{goodsObj.price * 1 | cny}}</span>
+                    原价：<del>{{goodsObj.price|op(goodsObj.discount) | cny}}</del>
+                </div>
+                <div class="story">
+                    折扣：{{goodsObj.discount}}
+
+                </div>
+                <div class="num">
+                    数量：
+                    <button class="num_add" @click="changeNum(false)">-</button><!-- 
+                     --><input type="number" v-model.number="num"><!-- 
+                     --><button class="num_red" @click="changeNum">+</button>
+                </div>
+                <hr>
+                <p class="add_shp">
+                    <button @click="add_shp">加入购物车</button>
+                </p>
+                <p>
+                    <img src="http://jc.nuandaojs.com/Public/images/p-ibelieve1009.jpg" alt="">
+                </p>
+                <p class="by">
+                    该商品参加满249包邮活动
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- iview的对话框 -->
+    <Modal v-model="modal1" title="友情提示：" @on-ok="ok" @on-cancel="cancel">
+        <h3>加入成功，是否进入购物车？</h3>
+    </Modal>
+
+
+     <!-- 使用iview的alert插件 -->
+     <Alert class="show" v-show="show" type="error" show-icon closable>
+
+            <h3>提示：</h3>
+            <span slot="desc">
+                <h3>你还未登录，正在为您跳转。。。</h3>
+            </span>
+    
+        </Alert>
+
+    <Footer />
+</div>

@@ -1,0 +1,270 @@
+{
+    "goodsList": [
+        {
+            "_id": 1,
+            "info": "Claire Designs原创首饰系列",
+            "imgSrc": "http://img2.nuandaoimg.com/Public/images/uploads/sale/20190107/5c330748b40fa.jpg",
+            "title": "诉说与TA不一样的故事",
+            "price": 220,
+            "discount": 9,
+            "imgList": [
+                "http://img2.nuandaocdn.com/Public/images/uploads/fck/image/2017/01/011840363717.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/fck/image/2017/01/011840363717.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/fck/image/2016/12/251142346040.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/fck/image/2016/12/251142346040.jpg"
+            ]
+        },
+        {
+            "_id": 2,
+            "info": "“不言”原创手工皮革小物",
+            "imgSrc": "http://img2.nuandaocdn.com/Public/images/uploads/sale/20190107/5c33084470e38.jpg",
+            "title": "提供生活美好的视觉体验",
+            "price": 220,
+            "discount": 9,
+            "imgList": [
+                "http://img2.nuandaocdn.com/Public/images/uploads/fck/image/2016/11/162245111281.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/fck/image/2016/11/162245357234.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/fck/image/2016/11/162245584789.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/fck/image/2016/11/162246173013.jpg"
+            ]
+        },
+        {
+            "_id": 3,
+            "info": "安适蕾argiletz有机牙膏",
+            "imgSrc": "http://img1.nuandaoimg.com/Public/images/uploads/sale/20190107/5c3308ac6143f.jpg",
+            "title": "美白舒缓、健康生活",
+            "price": 2220,
+            "discount": 7,
+            "imgList": [
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160928/57eb7316aadfe.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20160928/57eb7316aadfe-450.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/fck/image/2016/09/281459072047.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/fck/image/2016/09/281535422169.jpg"
+            ]
+        },
+        {
+            "_id": 4,
+            "info": "EDKY运动无线蓝牙耳机",
+            "imgSrc": "http://img1.nuandaoimg.com/Public/images/uploads/sale/20190104/5c2f30d2b2d07.jpg",
+            "title": "聆听新体验",
+            "price": 222,
+            "discount": 70,
+            "imgList": [
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20170809/598a7e877894c.gif",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20170502/5907f611e04ff-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160901/57c7cffe237d2-218.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20170503/5909875ad22cf-300.jpg"
+            ]
+        },
+        {
+            "_id": 5,
+            "info": "FRANCK&FISCHER",
+            "imgSrc": "http://img1.nuandaocdn.com/Public/images/uploads/sale/20190104/5c2f3143d5692.jpg",
+            "title": "Design for Kids",
+            "price": 33,
+            "discount": 88,
+            "imgList": [
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20170325/58d62db7a7081-218.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20160224/56cd1757bde4a-218.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20130521/519b4183bd41c-218.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20130124/5100ebf162081-218.jpg"
+            ]
+        },
+        {
+            "_id": 6,
+            "info": "丹麦Essey高品质创意家居",
+            "imgSrc": "http://img1.nuandaoimg.com/Public/images/uploads/sale/20190104/5c2f31b9c20ba.jpg",
+            "title": "让设计回归最原始的形态",
+            "price": 400,
+            "discount": 6,
+            "imgList": [
+                "http://img1.nuandaocdn.com/Public/images/uploads/fck/image/2016/12/161828394354.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/fck/image/2016/12/161829013734.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/fck/image/2016/12/161829386904.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/fck/image/2016/12/161829219451.jpg"
+            ]
+        },
+        {
+            "_id": 7,
+            "info": "doble厨具产品",
+            "imgSrc": "http://img2.nuandaoimg.com/Public/images/uploads/sale/20190104/5c2f324f25c37.jpg",
+            "title": "韩国最好的厨具制造者之一",
+            "price": 66,
+            "discount": 65,
+            "imgList": [
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160104/568a4e61177f5-100.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20160105/568b5381bc39b-100.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20160105/568b5382e4185-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160104/568a4e61177f5-100.jpg"
+            ]
+        },
+        {
+            "_id":8,
+            "info": "Contrast Of Perfect Yesterdays太阳镜",
+            "imgSrc": "http://img2.nuandaoimg.com/Public/images/uploads/sale/20190104/5c2f230c47223.jpg",
+            "title": "玩味时尚新视野",
+            "price":77,
+            "discount":33,
+            "imgList":[
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20130830/52203ea4d159c-100.JPG",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20130830/52203ea5af2c2-100.JPG",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20130830/52203ea632241-100.JPG",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20130830/52203ea6a752e-100.JPG"
+            ]
+        },
+        {
+            "_id":9,
+            "info": "CLOSCA Turtle折叠骑行头盔",
+            "imgSrc": "http://img1.nuandaoimg.com/Public/images/uploads/sale/20190104/5c2f275bcbce3.jpg",
+            "title": "可以放进包里的头盔",
+            "price":56,
+            "discount":99,
+            "imgList":[
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20160513/57353126f2682-100.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20160513/573531337a75a-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160513/5735313b63b92-100.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20160513/5735338249c1b-100.jpg"
+            ]
+        },
+        {
+            "_id":10,
+            "info": "Boogie Board 电子手写涂鸦板",
+            "imgSrc": "http://img2.nuandaocdn.com/Public/images/uploads/sale/20190104/5c2f27e3e2c4f.jpg",
+            "title": "低碳环保新贡献",
+            "price":67,
+            "discount":6,
+            "imgList":[
+                "http://img2.nuandaoimg.com/Public/images/uploads/fck/image/2016/03/301054018748.gif",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20160330/56fb40a74b82f-100.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20160330/56fb40b13928c-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160330/56fb40b496ebd-100.jpg"
+            ]
+        },
+        {
+            "_id":11,
+            "info": "BABAMA包袋",
+            "imgSrc": "http://img1.nuandaocdn.com/Public/images/uploads/sale/20190104/5c2f2fcf451c5.jpg",
+            "title": "轻潮是一种态度",
+            "price":38,
+            "discount":9.9,
+            "imgList":[
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20170824/599e83c94b7e3-100.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20170824/599e83cc7ddee-100.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20170824/599e83cfc0cea-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20170824/599e83d4de650-100.jpg"
+            ]
+        },
+        {
+            "_id":12,
+            "info": "海马先生店原创设计产品",
+            "imgSrc": "http://img2.nuandaoimg.com/Public/images/uploads/sale/20190103/5c2d7f2e6339c.jpg",
+            "title": "来自地中海的别样设计",
+            "price":999,
+            "discount":8.8,
+            "imgList":[
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160127/56a823bb4388d-100.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20160127/56a823eb3453c-100.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20160127/56a823ec32571-100.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20160127/56a823ed0bdaa-100.jpg"
+            ]
+        },
+        {
+            "_id":13,
+            "info": "“趋然”地毯&抱枕",
+            "imgSrc": "http://img2.nuandaoimg.com/Public/images/uploads/sale/20190104/5c2f1ab8b203d.jpg",
+            "title": "“趋于生活、源本自然”",
+            "price":17,
+            "discount":47,
+            "imgList":[
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20180609/5b1b9992e1f6f-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20180609/5b1b99cf8bdc9-100.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20180609/5b1b99d53b131-100.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20180609/5b1b99da1450c-100.jpg"
+            ]
+        },
+        {
+            "_id":14,
+            "info": "MOGU猫古创意生活用品",
+            "imgSrc": "http://img1.nuandaoimg.com/Public/images/uploads/sale/20190104/5c2f1bb1291f3.jpg",
+            "title": "萌翻你的抱枕",
+            "price":678,
+            "discount":3.3,
+            "imgList":[
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20160224/56cd3aaeef6f2-100.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20160224/56cd3ab94cd76-100.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20160224/56cd3ac03ff8f-100.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20160224/56cd3ac88d554-100.jpg"
+            ]
+        },
+        {
+            "_id":15,
+            "info": "星音XINGING原创产品",
+            "imgSrc": "http://img1.nuandaocdn.com/Public/images/uploads/sale/20190104/5c2f20767eb1e.jpg",
+            "title": "夜晚温柔的那道光",
+            "price":666,
+            "discount":78,
+            "imgList":[
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160719/578dce80deda2-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160719/578dce89627d3-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160719/578dce8e99dbe-100.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20160719/578dce9a55f73-100.jpg"
+            ]
+        },
+        {
+            "_id":16,
+            "info": "KXTOYS创意新潮公仔",
+            "imgSrc": "http://img1.nuandaoimg.com/Public/images/uploads/sale/20190103/5c2d7049da8c8.jpg",
+            "title": "英雄在手，全面呵护！",
+            "price":99,
+            "discount":9.5,
+            "imgList":[
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20170614/5940b388e7f82-100.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20170608/5938bcb534fd7.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20170614/5940b257889f4.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20170612/593e0ddab7ed8.jpg"
+            ]
+        },
+        {
+            "_id":17,
+            "info": "Parfums Senze茜诗香水",
+            "imgSrc": "http://img1.nuandaoimg.com/Public/images/uploads/sale/20190103/5c2d70dd7b936.jpg",
+            "title": "属于你的味道",
+            "price":1200,
+            "discount":8,
+            "imgList":[
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20160531/574d48227a014-218.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20160531/574d44a1274f4-218.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20160531/574d40e9559cd-218.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20151127/565854694b747-218.jpg"
+            ]
+        },
+        {
+            "_id":19,
+            "info": "Solove素乐便携创意",
+            "imgSrc": "http://img1.nuandaocdn.com/Public/images/uploads/sale/20190103/5c2d760e229bf.jpg",
+            "title": "生活更“轻”松",
+            "price":78,
+            "discount":1,
+            "imgList":[
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20170815/5992b7eeef01a-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20170815/5992b7f7b8747-100.jpg",
+                "http://img1.nuandaoimg.com/Public/images/uploads/product/20170815/5992b7fed6047-100.jpg",
+                "http://img1.nuandaocdn.com/Public/images/uploads/product/20170815/5992b80bc5c33-100.jpg"
+            ]
+        },
+        {   
+            "_id":20,
+            "info": "暖爸爸降温碗",
+            "imgSrc": "http://img1.nuandaoimg.com/Public/images/uploads/sale/20190103/5c2d78a97b202.jpg",
+            "title": "“有魔法”的碗",
+            "price":277,
+            "discount":2,
+            "imgList":[
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20180515/5afaaee4eba9c-100.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20180515/5afaaeea55ac0-100.jpg",
+                "http://img2.nuandaoimg.com/Public/images/uploads/product/20180515/5afaaeef86684-100.jpg",
+                "http://img2.nuandaocdn.com/Public/images/uploads/product/20180515/5afaaee4eba9c-100.jpg"
+            ]
+        }
+    ]
+}

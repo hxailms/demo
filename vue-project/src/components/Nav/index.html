@@ -1,0 +1,63 @@
+<header>
+    <div class="top cl">
+        <div class="w1200">
+            <div class="h_l">
+                <router-link :to="{name:'h'}">
+                    <i class="logo"></i>
+                </router-link>
+                <div class="search">
+                    <i class="search_i"></i>
+                    <input type="text" placeholder="请输入关键字搜索">
+
+                </div>
+                <span>每天10点上新
+                    满249元包邮</span>
+            </div>
+            <div class="h_r">
+                <div class="h_r_box">
+                    <i class="gwc"></i>
+                    <router-link class="a" :to="{name:'sc'}">
+                        购物车
+                    </router-link>
+                    <span class="num">{{shopNum}}</span>
+                    |
+                    <div class="jump" v-show="jump">
+                        <router-link :to="{name:'l'}">登录</router-link>
+                        |
+                        <router-link :to="{name:'r'}">注册</router-link>
+                    </div>
+                    <div div class="jump" v-show="userLog">
+                        <p>欢迎您！{{logName}}</p>
+                    </div>
+                    <button @click="exitLog" class="exitLog" v-show="userLog">
+                        退出登录
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top结束 -->
+    <nav class="nav">
+        <ul class="w1200 cl">
+            <router-link 
+            :to="{name:item.name}" 
+            v-for="item in navs"
+            tag="li"
+            activeClass="active"
+            >
+                <a href="">{{item.text}}</a>
+            </router-link>
+
+        </ul>
+    </nav>
+
+     <!-- 使用iview的alert插件 -->
+     <Alert class="show" v-show="show" type="info" show-icon closable>
+
+            <h3>提示：</h3>
+            <span slot="desc">
+                <h3>退出登录成功！</h3>
+            </span>
+    
+        </Alert>
+</header>

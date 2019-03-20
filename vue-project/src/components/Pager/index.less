@@ -1,0 +1,44 @@
+@w : 30px;
+.pager{
+    text-align: center;
+    margin: 40px 0;
+
+    .btn-list,
+    .pager-btn{
+        display: inline-block;
+    }
+
+    .pager-btn{
+        color: #974c0f;
+        font-size:16px;
+        border:1px solid #ccc;
+        height: @w;
+        line-height: @w;
+        padding: 0 10px;
+        margin: 0 6px;
+        &.active,
+        &:hover{
+            background: #974c0f;
+            border:1px solid  #974c0f;
+            color:#fff;
+        }
+        &:hover{
+            opacity: 0.7;
+        }
+        &.disabled{
+            color:#ccc;
+            cursor: default;
+            background: none;
+            border:1px solid #ccc;
+            opacity: 1;
+        }
+    }
+
+    .btn-list{
+        .pager-btn{
+            width: @w;
+            text-align: center;
+            padding: 0;
+        }
+    }
+}

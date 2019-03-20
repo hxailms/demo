@@ -1,0 +1,49 @@
+<div>
+
+    <Bg>
+
+
+        <div class="bg_top">
+            <router-link :to="{name:'l'}">
+                登录
+            </router-link>
+            |
+            <span class="current">
+                注册
+            </span>
+
+        </div>
+
+
+
+        <p class="reg_p1">
+            <i></i>
+            <input class="username" type="text" placeholder="暖岛账号:手机号码" v-model="data1.username" @blur="username_pd">
+        </p>
+        <span class="username_span" :style="{color:color1}">{{data1.username_span}}</span>
+        <p class="reg_p2">
+            <i></i>
+            <input class="userpwd1" type="password" placeholder="密码:6至12位的数字和字母" v-model="data1.userpwd1" @keyup="userpwd_pd">
+        </p>
+        <p class="reg_p3">
+            <i></i>
+            <input class="userpwd" type="password" placeholder="确认密码" v-model="data1.userpwd2" @keyup="userpwd_pd">
+        </p>
+        <span class="userpwd_span" :style="{color:color2}">{{data1.userpwd_span}}</span>
+        <div class="reg_wz">
+            忘记密码
+        </div>
+        <button class="reg_btn" @click="user_reg">注册暖岛</button>
+        <span class="reg_span">
+            注册登录暖岛后，您已同意
+            <a href="">用户使用条款</a>
+        </span>
+    </Bg>
+    <Alert class="show" v-show="show" type="success" show-icon closable>
+        
+        <h3>提示:</h3>
+        <span slot="desc"><h3>注册成功！</h3> </span>
+
+    </Alert>
+
+</div>

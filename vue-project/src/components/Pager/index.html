@@ -1,0 +1,10 @@
+
+<!-- 分页 -->
+<div class="pager">
+    <a href="javascript:;" @click="next(false)" :class="{disabled:index <= 0}" class="pager-btn prev"><</a>
+    <!-- 灰选状态 下标小于零 动态class 生效 -->
+    <div class="btn-list">
+        <a href="javascript:;" @click="isPage(i)" :class="{active: i - 1 == index}" v-for="i in cPage" class="pager-btn">{{i}}</a>
+    </div>
+    <a href="javascript:;" @click="next()" :class="{disabled:index >= cPage-1}" class="pager-btn next">></a>
+</div>

@@ -1,0 +1,35 @@
+<div>
+    <div class="header">
+        <div class="w1200">
+            <router-link :to="{name:'h'}">
+                <i></i>
+            </router-link>
+        </div>
+    </div>
+    <!-- header结束 -->
+    <div class="content">
+        <div class="content_box">
+            <div class="content_l">
+                <h3>中国具有创造力的设计电商</h3>
+                <div class="border">
+                    <span>让最好的一切发生</span>
+                </div>
+                <div class="dh">
+                    注册就送
+                    <strong>
+                        10元
+                    </strong>
+                    现金卷
+                </div>
+                <i></i>
+                <div>每日全球设计新品 2折起包邮+赠券特卖</div>
+            </div>
+            <!-- 左边结束 -->
+            <div class="content_border"></div>
+            <!-- 中间的边框 -->
+            <div class="content_r">
+                <slot />
+            </div>
+        </div>
+    </div>
+</div>

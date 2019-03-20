@@ -1,0 +1,144 @@
+.top{
+    // height: 46px;
+    background:#666;
+    color:#fff;
+    padding: 5px 0;
+    .h_l{
+        width: 50%;
+        float:left;
+        line-height: 46px;
+        span{
+            margin-left: 10px;
+            color:#fff;
+        }
+        .logo{
+            margin-top: 4px;
+            float:left;
+            width: 100px;
+            height: 38px;
+            background:url(http://jc.nuandaojs.com/Public/images/nuandao.png) no-repeat -50px -280px;
+        }
+        .search{
+            margin-top: 4px;
+            margin-left:80px;
+            line-height: 36px;
+            background:#fff;
+            border-radius:5px;
+            .search_i {
+                margin-left: 10px;
+                margin-top: 12px;
+                margin-right: 10px;
+                float:left;
+                width: 13px;
+                height: 13px;
+                background: url(http://jc.nuandaojs.com/Public/images/nuandao.png) no-repeat -260px -280px;
+            }
+            input{
+                width: 170px;
+                border:0;
+                font-size: 16px;
+                
+            }
+            float:left;
+        }
+    }
+    .h_r{
+        // width: 50%;
+        float:left;
+        padding-left: 170px;
+        .exitLog{
+            background: #666;
+            border:2px #eee solid;
+            border-radius:10px; 
+            color:#eee;
+            line-height: 20px;
+            vertical-align: top;
+            width: 70px;
+            &:hover{
+                color:#0ff;
+                border-color:#0ff; 
+            }
+        }
+        .h_r_box{
+            margin-top: 10px;
+            a{
+                color:#fff;
+                font-size: 14px;
+            }
+        }
+        .gwc{
+            margin-left: 20px;
+            margin-top: 3px;
+            float:left;
+            width: 19px;
+            height: 19px;
+            background: url(http://jc.nuandaojs.com/Public/images/nuandao.png) no-repeat -340px -88px;
+        }
+        .num{
+            margin-left: 10px;
+            margin-right: 20px;
+            display: inline-block;
+            font-size: 16px;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            border-radius: 50%;
+            background:#eee;
+            color:#f00;
+            font-weight: bolder;
+        }
+        .jump{
+            margin-left: 20px;
+            line-height: 22px;
+            display: inline-block;
+            border:2px #eee solid;
+            padding: 0 5px;
+            border-radius: 5px;
+            &:hover{
+                border-color:#0ff;
+                color:#0ff;
+            }
+            a {
+                color:#eee;
+                // font-size: 12px;
+                &:hover{
+                    color:#f00;
+                }
+                
+            }
+        }
+    }
+}
+// top结束
+
+.nav{
+    box-shadow: 5px 5px 10px #000;
+    ul{
+        text-align: center;
+     
+        li{
+            float: left;
+            width: 150px;
+            line-height: 50px;            
+            font-weight: bolder;
+            &.active{
+                // background: rgb(24, 153, 185);
+                box-shadow:0 0 10px #a24ac2;
+                a{
+                    color: #a24ac2;
+                    text-shadow: 0 0 2px #a24ac2;
+                }
+            }
+            a{
+                color:#666;    
+                line-height: 40px;   
+                padding-bottom: 10px;         
+            }
+            &:hover a{
+                color:#a24ac2;
+                border-bottom:3px #a24ac2 solid;
+            }
+        }
+    }
+}

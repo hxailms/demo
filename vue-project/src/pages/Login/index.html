@@ -1,0 +1,42 @@
+<div>
+    <!-- <h1>登录</h1> -->
+    <Bg>
+        <div class="bg_top">
+            <span class="current">
+                登录
+            </span>
+            |
+            <router-link :to="{name:'r'}">
+                注册
+            </router-link>
+        </div>
+        <p class="login_p1">
+            <i></i>
+            <input class="username" @blur="changeName" type="text" placeholder="暖岛账号" v-model="data1.username">
+        </p>
+        <span class="username_span" :style="{color:color1}">{{data1.nameTip}}</span>
+        <p class="login_p2">
+            <i></i>
+            <input class="userpwd" @blur="changePwd" type="password" placeholder="暖岛密码" v-model="data1.userpwd">
+        </p>
+        <span class="userpwd_span" :style="{color:color2}">{{data1.pwdTip}}</span>
+        <div class="login_wz">
+            忘记密码
+        </div>
+        <button class="log_btn" @click="user_log">登录暖岛</button>
+        <span class="log_span">
+            注册登录暖岛后，您已同意
+            <a href="#">用户使用条款</a>
+        </span>
+    </Bg>
+
+    <!-- 使用iview的alert插件 -->
+    <Alert class="show" v-show="show" type="success" show-icon closable>
+
+        <h3>登录成功！</h3>
+        <span slot="desc">
+            <h3>正在为您跳转。。。</h3>
+        </span>
+
+    </Alert>
+</div>

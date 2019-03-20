@@ -1,0 +1,30 @@
+<div>
+    <Nav />
+    <ul class="seekList w1200 cl">
+        <li>
+            <input @click="changeOrder(true)" id="px1" type="radio" name="paixu" value="1" checked>
+            <label class="desc_label" for="px1"></label>升序
+        </li>
+        <li>
+            <input @click="changeOrder(false)" id="px2" type="radio" name="paixu" value="2">
+            <label class="desc_label" for="px2"></label>降序
+        </li>
+        <li>
+            <input @click="changeKey(true)" id="or1" type="radio" value="3" name="order" checked>
+            <label for="or1"></label>价格
+        </li>
+        <li>
+            <input @click="changeKey(false)" id="or2" type="radio" name="order" value="4">
+            <label for="or2"></label>折扣
+        </li>
+
+        <li class="ss">
+            <input type="text" id="search" class="search" v-model="value"><button @click="changeSeek(value)" id="seekBtn">搜索</button>
+        </li>
+
+    </ul>
+    <List :list="goodsSub" />
+    <!-- 分页插件 -->
+    <Pager :cPage="cPage" :defaultPage="defaultIndex" @changePage="newPage" />
+    <Footer />
+</div>
